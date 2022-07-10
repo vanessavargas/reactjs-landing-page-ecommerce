@@ -8,7 +8,7 @@ Projeto realizado juntando os dois desafios desenvolvidas durante o programa **H
 
 Criação de um sistema de e-commerce, temática Black Friday, incluindo cadastro de email na landing page para recebimento de novidades.
 
-![Mockups](https://github.com/VanessaVargas/Desafio1-HiringCoders/blob/master/images/home.png)
+![Mockups](https://github.com/VanessaVargas/Desafio1-HiringCoders/blob/master/assets/img/home.svg)
 
 ### Gestão de Cadastros de Clientes e Produtos (proposta Desafio 2):
 
@@ -16,9 +16,9 @@ Criação de um sistema para inventário de produtos e dados de clientes do site
 O cliente é cadastrado com: Nome, CPF, E-mail, Telefone e Endereço. O produto é cadastrado com: Código, Produto, Marca e Quantidade.
 Os dados são armazenados localmente. Realizado o cadastro é exibida um mensagem de sucesso, e os cadastros realizados, e salvos no locastorage, são exibidos na tela.
 
-![Mockups](https://github.com/VanessaVargas/Desafio1-HiringCoders/blob/master/images/administrador.png)
-![Mockups](https://github.com/VanessaVargas/Desafio1-HiringCoders/blob/master/images/cadastroClientes.png)
-![Mockups](https://github.com/VanessaVargas/Desafio1-HiringCoders/blob/master/images/cadastroProdutos.png)
+![Mockups](https://github.com/VanessaVargas/Desafio1-HiringCoders/blob/master/assets/img/administrador.svg)
+![Mockups](https://github.com/VanessaVargas/Desafio1-HiringCoders/blob/master/assets/img/cadastro-clientes.svg)
+![Mockups](https://github.com/VanessaVargas/Desafio1-HiringCoders/blob/master/assets/img/cadastro-produtos.svg)
 
 # Tecnologias utilizadas
 
