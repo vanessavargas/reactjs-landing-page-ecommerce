@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="VanessaVargas" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro do Cliente</title>
+    <link rel="stylesheet" href="css/cadastro.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/cliente.js" defer></script>
+  </head>
+  <body>
+    <!--menu navegação-->
+    <nav id="navadm">
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><img src="images/Logotipo.png" alt="Logotipo"/></label>
+      <ul>
+        <li><a href="administrador.html">Voltar</a></li>
+      </ul>
+    </nav>
+    <!-- formulário de cadastro -->
+    <div class="cadastros">
+      <form class="container1">
+        <h2>Cadastro de Clientes</h2>
+        <fieldset>
+          <div class="container-cad">
+            <label>Nome</label>
+            <input class="inp-50" type="text" id="inpNome" placeholder="Nome do cliente" required/>
+          </div>
+          <div class="container-cad">
+            <label>CPF:</label>
+            <input class="inp-50" type="text" id="inpCpf" placeholder="CPF do cliente" required/>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="container-cad">
+            <label>E-mail:</label>
+            <input class="inp-50"
+              type="text"
+              id="inpEmail"
+              placeholder="E-mail do cliente"
+            />
+          </div>
+          <div class="container-cad">
+            <label>Telefone:</label>
+            <input class="inp-50" type="text" id="inpTelefone" placeholder="Ex.: XX XXXX-XXXX" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="container-cad">
+            <label>Endereço:</label>
+            <input class="inp-100" type="text" id="inpEndereco" placeholder="Cidade/Estado" />
+          </div>
+        </fieldset>
+        <fieldset class="buttons">  
+          <div id="btn-envio">
+            <input class="button-cad" 
+              type="button"
+              value="Cadastrar"
+              onclick="preenchimentoCampos('inpNome', 'inpCpf', 'inpEmail', 'inpTelefone', 'inpEndereco')"
+            />
+            <input class="button-limp" type="reset" id="cancelar" value="Cancelar" />
+          </div>
+        </fieldset>
+      </form>
+    </div>  
+    <div class="cadastros"> 
+      <div  class="container1">
+        <h2>Clientes Cadastrados</h2> 
+        <div class="container-cad"></div>  
+        <div>Clique no botão para limpar os registros já realizados</div>
+        <input class="button-cad" type="button" id="limpar" value="Limpar" onclick="limparStorage()"></p>
+      </div>
+    </div>
+  </body>
+</html>
