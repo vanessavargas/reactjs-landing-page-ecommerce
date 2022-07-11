@@ -8,31 +8,27 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
     <!--font awesome para criar o menú hamburguer-->
     <script src="https://kit.fontawesome.com/a076d05399.js" defer></script>
-    <script src="/assets/js/script.js" defer></script>
   </head>
   <body>
-    <nav class="menu">
-      <div class="logo"></div>
-        <img id="logo" src="/assets/img/logotipo.svg" alt="Logotipo" />
-      </div>
-      <div>
-        <ul>
-          <li><a href="/">Home</a></li>
+    
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"
+        ><img id="logo" src="/assets/img/logotipo.svg" alt="Logotipo"
+      /></label>
+      <ul>
+        <li><a href="/">Home</a></li>
           <li><a href="#promocoes">Promoções</a></li>
           <li><a href="#contato">Contato</a></li>
           <li>
             <a href="/pages/administrador.html">Modo Administrador</a>
           </li>
-        </ul>
-      </div>
-      <div>
-        <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-      </div>
+      </ul>
     </nav>
-    
+   
     <div class="slider">
       <div id="slider">
         <img
@@ -101,7 +97,7 @@
           tamanho de cabide, além de possuir 4 gavetas espaçosas.
         </p>
         <p>De R$ 3.190,00 por</p>
-        <h2 class="price">R$ 2..469,99</h2>
+        <h2 class="price">R$ 2.469,99</h2>
       </div>
       <div class="card">
         <h3>Kit Mesa Noronha</h3>
@@ -179,7 +175,7 @@
         <h2 class="price">R$ 2.419,90</h2>
       </div>
     </div>
-    <!--Newsletters-->
+    
     <div class="news">
       <div class="content">
         <form id="form">
@@ -222,4 +218,5 @@
       </p>
     </div>
         </body>
+        <script src="/assets/js/script.js"></script>
 </html>

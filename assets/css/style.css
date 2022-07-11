@@ -1,105 +1,125 @@
+:root {
+  --brand-color__primary-0: #639187;
+  --brand-color__primary-1: #536b66;
+  --neutral-color__neutral-0: #262626;
+  --neutral-color__neutral-1: #292929;
+  --neutral-color__neutral-2: #868789;
+  --neutral-color__neutral-6: #f5f5f5;
+  --neutral-color__neutral-7: #ffffff;
+  --font-title-1: normal 20px Segoe UI;
+  --font-paragrafo: normal 17px/24px Segoe UI;
+  --font-subtitle-1: 600 17px Segoe UI;
+  --font-subtitle-2: 200 17px Segoe UI;
+  --font-button: 600 17px Segoe UI;
+  --font-legend: normal 17px Segoe UI;
+  --font-destac: 600 2vw Segoe UI;
+}
+
 * {
-  padding: 0;
   margin: 0;
-  text-decoration: none;
+  padding: 0;
+  box-sizing: 0;
   list-style: none;
-  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
-  background-color: #639187;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
+  background-color: var(--brand-color__primary-0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.menu {
-  background: #868789;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+nav {
+  background-color: var(--neutral-color__neutral-2);
   height: 100px;
   width: 100%;
   position: fixed;
   z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.menu ul li {
+nav ul {
+  margin-right: 40px;
+}
+
+nav ul li {
   display: inline-block;
-  line-height: 80px;
   margin: 0 5px;
 }
 
-.menu ul li a {
-  color: white;
-  font-size: 17px;
+nav ul li a {
+  color: var(--neutral-color__neutral-6);
+  font: var(--font-title-1);
   padding: 7px 13px;
-  border-radius: 3px;
 }
 
-.menu ul li a.active,
-.menu ul li a:hover {
-  background: #639187;
+nav ul li a.active,
+nav ul li a:hover {
+  background-color: var(--brand-color__primary-1);
   transition: 0.5s;
 }
 
+.logo {
+  margin-left: 40px;
+}
+
 .checkbtn {
-  font-size: 30px;
-  color: white;
+  font: var(--font-title-1);
+  color: var(--neutral-color__neutral-6);
   float: right;
-  line-height: 80px;
   margin-right: 40px;
   cursor: pointer;
   display: none;
 }
-
 #check {
   display: none;
 }
 @media (max-width: 952px) {
-  .logo {
+  label.logo {
     font-size: 30px;
   }
 }
+
 @media (max-width: 858px) {
   .checkbtn {
     display: block;
   }
+
+  nav {
+    flex-direction: row-reverse;
+  }
+
   ul {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #707972;
-    top: 80px;
+    display: inline;
+    background-color: var(--neutral-color__neutral-1);
+    top: 100px;
     left: -100%;
     text-align: center;
     transition: all 0.5s;
   }
+
   nav ul li {
     display: block;
     margin: 50px 0;
     line-height: 30px;
   }
   nav ul li a {
-    font-size: 20px;
+    font: var(--font-title-1);
   }
   a:hover,
   a.active {
     background: none;
-    color: #639187;
+    color: var(--brand-color__primary-0);
   }
   #check:checked ~ ul {
     left: 0;
   }
-}
-
-#lupa {
-  background-color: #868789;
-  height: 50px;
-  width: auto;
-  border: none;
-  cursor: pointer;
 }
 
 .slider {
@@ -148,7 +168,7 @@ body {
   width: 100%;
 }
 
-.post2{
+.post2 {
   width: 45%;
   text-align: center;
   font-size: 3vw;
@@ -164,12 +184,12 @@ body {
 .card {
   margin: 10px 10px;
   display: flex;
-  border: 1px solid #85bbaf;
+  border: 1px solid var(--brand-color__primary-0);
   width: 200px;
   flex-direction: column;
   align-items: center;
   flex-basis: 20%;
-  background-color: #fff;
+  background-color: var(--neutral-color__neutral-6);
 }
 
 .card-container {
