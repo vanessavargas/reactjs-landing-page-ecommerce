@@ -11,25 +11,28 @@
     <script src="/assets/js/script.js" defer></script>
   </head>
   <body>
-    <!--menu navegação-->
-    <nav>
-      <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo"
-        ><img id="logo" src="/assets/img/logotipo.svg" alt="Logotipo"
-      /></label>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="#promocoes">Promoções</a></li>
-        <li><a href="#contato">Contato</a></li>
-        <li>
-          <a href="/pages/administrador.html">Modo Administrador</a>
-        </li>
-      </ul>
+    <nav class="menu">
+      <div class="logo"></div>
+        <img id="logo" src="/assets/img/logotipo.svg" alt="Logotipo" />
+      </div>
+      <div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#promocoes">Promoções</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li>
+            <a href="/pages/administrador.html">Modo Administrador</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+      </div>
     </nav>
-    <!--Slider-->
+    
     <div class="slider">
       <div id="slider">
         <img
@@ -42,7 +45,7 @@
         <img src="/assets/img/slide3.svg" alt="Image3" />
       </div>
     </div>
-    <!--Destaque texto-->
+    
     <div class="bloco-post" id="promocoes">
       <div class="post1">
         <img src="/assets/img/black-friday.svg" alt="banner Black Friday" />
@@ -53,7 +56,7 @@
         </p>
       </div>
     </div>
-    <!--Destaque produtos-->
+    
     <div class="card-container">
       <div class="card">
         <h3>Cozinha Madesa</h3>
@@ -177,10 +180,10 @@
       </div>
     </div>
     <!--Newsletters-->
-    <div id="news">
-      <div id="content">
+    <div class="news">
+      <div class="content">
         <form id="form">
-          <h2>Cadastre-se e fique por dentro das novidades e promoções</h2>
+          <p>Cadastre-se e fique por dentro das novidades e promoções</p>
           <input
             class="input"
             type="text"
@@ -199,18 +202,24 @@
         </form>
       </div>
     </div>
-    <!--Contatos-->
-    <div id="contato">
-      <h3>Contatos</h3>
-      <div>
-        <p><b>Telefones: </b> (51)4000-0001 | (51)9999-9999</p>
-        <p><b>Endereço:</b> Rua do Comércio, 1234 - Cidade Linda/RS</p>
-        <p>
-          <b>Redes sociais:</b> <a href="#">Instagram</a> |
-          <a href="#">Facebook</a>
-        </p>
+
+    <footer>
+      <div id="contato">
+        <h3>Contatos</h3>
+        <div>
+          <p><b>Telefones: </b> (51)4000-0001 | (51)9999-9999</p>
+          <p><b>Endereço:</b> Rua do Comércio, 1234 - Cidade Linda/RS</p>
+          <p>
+            <b>Redes sociais:</b> <a href="#">Instagram</a> |
+            <a href="#">Facebook</a>
+          </p>
+        </div>
       </div>
+      <div>
+      <p>
+        &COPY;2021 Vanessa Vargas. Todos os direitos reservados.</footer>
+
+      </p>
     </div>
-    <footer>&COPY;2021 Vanessa Vargas. Todos os direitos reservados.</footer>
-  </body>
+        </body>
 </html>
