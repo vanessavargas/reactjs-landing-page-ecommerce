@@ -36,9 +36,13 @@ nav ul li a:hover {
   margin-left: 40px;
 }
 
+.logo img {
+  width: 150px;
+}
+
 .checkbtn {
   font: var(--font-title-1);
-  color: var(--neutral-color__neutral-6);
+  color: var(--neutral-color__neutral-3);
   float: right;
   margin-right: 40px;
   cursor: pointer;

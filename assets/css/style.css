@@ -4,8 +4,7 @@
   --neutral-color__neutral-0: #262626;
   --neutral-color__neutral-1: #292929;
   --neutral-color__neutral-2: #868789;
-  --neutral-color__neutral-6: #f5f5f5;
-  --neutral-color__neutral-7: #ffffff;
+  --neutral-color__neutral-3: #f5f5f5;
   --font-title-1: normal 20px Segoe UI;
   --font-paragrafo: normal 17px/24px Segoe UI;
   --font-subtitle-1: 600 17px Segoe UI;
@@ -30,76 +29,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*destaque produtos*/
-.flex-div {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: auto;
-}
 
-.card {
-  margin: 10px 10px;
-  display: flex;
-  border: 1px solid var(--brand-color__primary-0);
-  width: 200px;
-  flex-direction: column;
-  align-items: center;
-  flex-basis: 20%;
-  background-color: var(--neutral-color__neutral-6);
-}
-
-.card-container {
-  margin-top: 64px;
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.card-img-top {
-  width: 100%;
-}
-
-img {
-  width: 150px;
-}
-
-.description {
-  text-align: center;
-  margin: 5px 2px;
-  font-size: 10px;
-}
-
-.price {
-  color: #66375c;
-}
-
-@media (max-width: 700px) {
-  .card {
-    flex-basis: 100%;
-  }
-  .card img,
-  .destriction {
-    display: none;
-  }
-  input {
-    width: 100%;
-  }
-}
-
-.card-container2 {
-  display: flex;
-}
-
-.container {
-  margin: 10px 10px;
-  display: flex;
-  width: 200px;
-  flex-direction: column;
-  align-items: center;
-  flex-basis: 20%;
-  font-family: "Roboto", sans-serif;
-}
 
 .news {
   margin-top: 64px;
