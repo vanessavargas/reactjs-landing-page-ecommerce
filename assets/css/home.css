@@ -1,4 +1,4 @@
-/*Carrossel*/
+/*carrossel*/
 .slider {
   margin-top: 104px;
 }
@@ -21,7 +21,7 @@
   opacity: 1;
 }
 
-/*Banner Black*/
+/*banner black friday*/
 .bloco-post {
   display: flex;
   justify-content: space-evenly;
@@ -44,6 +44,82 @@
   margin-top: 50%;
 }
 
+/*destaque produtos*/
+.card-container {
+  margin-top: 64px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 10px 10px;
+  display: flex;
+  padding: 0 10px;
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 20%;
+  background-color: var(--brand-color__primary-0);
+  border-radius: 16px;
+  box-shadow: 0 1px 1px 1px rgb(64, 64, 64, 0.5);
+}
+
+.card-img-top {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.card-img-top img {
+  width: 150px;
+}
+
+.description {
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 10px;
+}
+
+.price h2 {
+  color: var(--brand-color__primary-1);
+}
+
+.price-p {
+  text-decoration: line-through;
+}
+
+.legend {
+  font: var(--font-legend);
+}
+@media (max-width: 700px) {
+  .price {
+    display: none;
+  }
+  .card {
+    flex-basis: 100%;
+  }
+  input {
+    width: 100%;
+  }
+}
+
+.card-container2 {
+  display: flex;
+}
+
+.container {
+  margin: 10px 10px;
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 20%;
+  font-family: "Roboto", sans-serif;
+}
+
+/*popup*/
+
 @media (max-width: 700px) {
   .slider {
     display: none;
@@ -62,3 +138,61 @@
     margin-left: 10%;
   }
 }
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popup .content-popup {
+  visibility: hidden;
+  width: 200px;
+  background-color: var(--neutral-color__neutral-3);
+  color: var(--neutral-color__neutral-0);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.popup .content-popup::after {
+  content: "";
+  position: absolute;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*não achei no código*/
+
+/*
+.flex-div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+}
+*/
