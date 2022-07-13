@@ -31,51 +31,7 @@ body {
 
 
 
-.news {
-  margin-top: 64px;
-  display: flex;
-  justify-content: center;
-}
 
-.content {
-  width: 60%;
-  text-align: center;
-  background-color: rgb(255, 22, 22, 0.4);
-}
-
-form p {
-  font-size: 2vw;
-}
-
-/*newsletters*/
-.input {
-  margin: 10px;
-  height: 40px;
-  border: solid 1px #ccc;
-  border-radius: 4px;
-  font-size: 18px;
-  width: 40%;
-}
-.button-home {
-  min-width: 104px;
-  margin-right: 10px;
-  margin-left: 10px;
-  padding: 10px 0px;
-  border-color: none;
-  border-radius: 6px;
-  background-color: #404040;
-  color: #fff;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 700;
-  text-decoration: none;
-  cursor: pointer;
-}
-.button-home:hover {
-  border-color: #3b685e;
-  background-color: #3b685e;
-  color: #fff;
-}
 footer {
   border-top: 1px solid #cccccc;
   margin-top: 64px;

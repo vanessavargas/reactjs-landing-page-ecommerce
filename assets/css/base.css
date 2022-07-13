@@ -21,7 +21,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--neutral-color__neutral-6);
+  color: var(--neutral-color__neutral-3);
   font: var(--font-title-1);
   padding: 7px 13px;
 }
