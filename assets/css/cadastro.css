@@ -1,52 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  background-color: #639187;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 /*páginas de gestão*/
 .cadastros-adm {
   align-items: center;
   justify-content: space-around;
   text-align: center;
 }
-.buttons-adm {
-  display: flex;
-  width: 100%;
-  margin-top: 20px;
-  justify-content: center;
-  align-items: center;
-}
-.button-cli,
-.button-prod {
-  position: static;
-  width: 400px;
-  height: 60px;
-  min-width: 104px;
-  margin-right: 10px;
-  margin-left: 10px;
-  padding: 10px 0px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: none;
-  border-radius: 6px;
-  background-color: #14141480;
-  color: #fff;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 700;
-  text-decoration: none;
-  cursor: pointer;
-}
-.button-cli:hover,
-.button-prod:hover {
-  border-color: #3b685e;
-  background-color: #3b685e;
-  color: #fff;
-}
+
 /*páginas de cadastro*/
 .cadastros {
   display: flex;
