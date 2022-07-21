@@ -1,3 +1,8 @@
+main {
+  width: 100%;
+ padding: 0 20px;
+}
+
 /*carrossel*/
 .slider {
   margin-top: 104px;
