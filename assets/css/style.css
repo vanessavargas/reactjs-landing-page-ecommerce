@@ -1,6 +1,7 @@
 :root {
   --brand-color__primary-0: #639187;
-  --brand-color__primary-1: #536b66;
+  --brand-color__primary-1: #5d877f;
+  --brand-color__primary-2: #11463d;
   --neutral-color__neutral-0: #262626;
   --neutral-color__neutral-1: #292929;
   --neutral-color__neutral-2: #868789;
@@ -31,17 +32,6 @@ body {
 
 
 
-
-footer {
-  border-top: 1px solid #cccccc;
-  margin-top: 64px;
-  margin-bottom: 0;
-  left: 0;
-  height: 40px;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-}
 /*página administrador*/
 #navadm {
   z-index: 0;
