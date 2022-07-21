@@ -8,7 +8,7 @@ Projeto realizado juntando os dois desafios desenvolvidas durante o programa **H
 
 Criação de um sistema de e-commerce, temática Black Friday, incluindo cadastro de email na landing page para recebimento de novidades.
 
-![Mockups](https://github.com/VanessaVargas/Desafio1-HiringCoders/blob/master/assets/img/home.svg)
+![Mockups](https://github.com/VanessaVargas/Desafio1-HiringCoders/blob/master/assets/img/layout.svg)
 
 ### Gestão de Cadastros de Clientes e Produtos (proposta Desafio 2):
 
