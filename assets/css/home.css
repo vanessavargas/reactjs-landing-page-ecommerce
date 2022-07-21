@@ -1,3 +1,8 @@
+main {
+  width: 100%;
+ padding: 0 20px;
+}
+
 /*carrossel*/
 .slider {
   margin-top: 104px;
@@ -82,7 +87,7 @@
 }
 
 .price h2 {
-  color: var(--brand-color__primary-1);
+  color: var(--brand-color__primary-2);
 }
 
 .price-p {
