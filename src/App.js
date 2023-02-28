@@ -1,4 +1,5 @@
 import Principal from "./Principal";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

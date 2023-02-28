@@ -13,6 +13,7 @@ Criação de um sistema de e-commerce, temática Black Friday, incluindo cadastr
 # Tecnologias utilizadas
 
 - React JS
+- React-Bootstrap
 - CSS
 
 #### ✨ Desenvolvido por Vanessa Vargas ✨

@@ -18,26 +18,12 @@ import Produto5 from "./assets/img/poltronas.svg";
 import Produto6 from "./assets/img/quarto-bebe.svg";
 import Produto7 from "./assets/img/sala-jantar.svg";
 import Produto8 from "./assets/img/sofa.svg";
+import Menu from "./components/Menu";
 
 export default function Principal() {
   return (
     <>
-    <header>
-      <nav>
-        <input type="checkbox" id="check" />
-        <label for="check" className="checkbtn">
-          <i className="fas fa-bars"></i>
-        </label>
-        <label className="logo"
-          ><img id="logo" src={Logo} alt="Logotipo"
-        /></label>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="#promocoes">Promoções</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
+    <Menu />
 
     <main>
       <div className="slider">
