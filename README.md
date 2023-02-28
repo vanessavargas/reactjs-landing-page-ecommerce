@@ -8,7 +8,7 @@ Projeto realizado como desafio, desenvolvido durante o programa **Hiring Coders 
 
 Criação de um sistema de e-commerce, temática Black Friday, incluindo cadastro de email na landing page para recebimento de novidades.
 
-![Mockups](https://github.com/VanessaVargas/Desafio1-HiringCoders/blob/master/assets/img/layout.svg)
+![Layout](https://github.com/vanessavargas/hiring-coders-2021/blob/master/src/assets/img/layout.svg)
 
 # Tecnologias utilizadas
 
