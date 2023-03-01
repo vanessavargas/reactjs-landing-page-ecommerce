@@ -1,19 +1,20 @@
-# Sobre o Projeto
+# Beautiful Home Store
 
-Projeto realizado como desafio, desenvolvido durante o programa **Hiring Coders 2021**, promovido pela VTEX, em parceria com a Gama Academy, realizado entre julho e agosto de 2021. Uma landing page da loja Beatiful Home (Desafio 1).
+<div align="center">
 
-#### Link: https://desafios-fase1.netlify.app/
+![Layout-projeto](https://github.com/vanessavargas/hiring-coders-2021/blob/master/src/assets/img/layout.png)
 
-### Landing Page de E-commerce (proposta Desafio 1):
+</div>
 
-Criação de um sistema de e-commerce, temática Black Friday, incluindo cadastro de email na landing page para recebimento de novidades.
+O deploy foi realizado no Vercel, e pode ser visualizado neste [link](https://beautifulhomestore.vercel.app/).
 
-![Layout](https://github.com/vanessavargas/hiring-coders-2021/blob/master/src/assets/img/layout.svg)
+## Sobre
 
-# Tecnologias utilizadas
+A Beautiful Home Store é uma landing page de um e-commerce, foi desenvolvida com temática Black Friday, incluindo cadastro de email na para recebimento de novidades. O projeto foi realizado como desafio, durante o programa **Hiring Coders 2021**, promovido pela VTEX em parceria com a Gama Academy, realizado entre julho e agosto de 2021. 
+
+## Tecnologias utilizadas
 
 - React JS
 - React-Bootstrap
-- CSS
 
 #### ✨ Desenvolvido por Vanessa Vargas ✨
