@@ -1,10 +1,8 @@
 import React from "react";
 
-import "./assets/css/base.css";
 import "./assets/css/home.css";
 import "./assets/css/style.css";
 
-import Logo from "./assets/img/logotipo.svg";
 import BlackFriday from "./assets/img/black-friday.svg";
 import Produto1 from "./assets/img/cozinha-madesa.svg";
 import Produto2 from "./assets/img/escritorio.svg";
@@ -14,6 +12,7 @@ import Produto5 from "./assets/img/poltronas.svg";
 import Produto6 from "./assets/img/quarto-bebe.svg";
 import Produto7 from "./assets/img/sala-jantar.svg";
 import Produto8 from "./assets/img/sofa.svg";
+import Footer from "./components/Footer";
 import Menu from "./components/Menu";
 import Slider from "./components/Slider";
 
@@ -246,28 +245,7 @@ export default function Principal() {
       </div>
     </main>
 
-    <footer id="contato">
-      <div className="contato-footer">
-        <div>
-          <p>
-            Beautiful Home Store Ltda. <br />
-            Rua do Comércio, 1234 Cidade Linda-RS CEP: 91234-567
-            <br />
-            Beautiful.home@bh-store.com <br />
-            (51)4000-0001 | (51)9999-9999
-          </p>
-        </div>
-        <div>
-          <img
-            src={Logo}
-            alt="logotipo da Beautiful Home Store"
-          />
-        </div>
-      </div>
-      <div className="direitos-footer">
-        <p>&COPY;2021 Vanessa Vargas. Todos os direitos reservados.</p>
-      </div>
-    </footer>
+    <Footer />              
     
     </>
   )
