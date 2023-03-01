@@ -12,7 +12,7 @@ export default function Menu() {
           <Navbar.Brand href="#home"><img id="logo" src={Logo} alt="Logotipo"  widht={80} height={80}
         /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" className='text-end'>
+          <Navbar.Collapse id="basic-navbar-nav" className='text-center'>
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="#promocoes">Promoções</Nav.Link>
