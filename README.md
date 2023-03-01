@@ -6,7 +6,7 @@
 
 </div>
 
-O deploy foi realizado no Vercel, e pode ser visualizado neste [link](https://beautifulhomestore.vercel.app/).
+O deploy do projeto foi realizado no Vercel, e pode ser visualizado neste [link](https://beautifulhomestore.vercel.app/).
 
 ## Sobre
 
