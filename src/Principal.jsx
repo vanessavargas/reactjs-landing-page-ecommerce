@@ -1,14 +1,10 @@
 import React from "react";
 
 import "./assets/css/base.css";
-import "./assets/css/cadastro.css";
 import "./assets/css/home.css";
 import "./assets/css/style.css";
 
 import Logo from "./assets/img/logotipo.svg";
-import Slide1 from "./assets/img/slide1.svg";
-import Slide2 from "./assets/img/slide2.svg";
-import Slide3 from "./assets/img/slide3.svg";
 import BlackFriday from "./assets/img/black-friday.svg";
 import Produto1 from "./assets/img/cozinha-madesa.svg";
 import Produto2 from "./assets/img/escritorio.svg";
@@ -19,25 +15,15 @@ import Produto6 from "./assets/img/quarto-bebe.svg";
 import Produto7 from "./assets/img/sala-jantar.svg";
 import Produto8 from "./assets/img/sofa.svg";
 import Menu from "./components/Menu";
+import Slider from "./components/Slider";
 
 export default function Principal() {
   return (
     <>
     <Menu />
+    <Slider />
 
     <main>
-      <div className="slider">
-        <div id="slider">
-          <img
-            id="slide1"
-            className="selected"
-            src={Slide1}
-            alt="Image1"
-          />
-          <img src={Slide2} alt="Image2" />
-          <img src={Slide3} alt="Image3" />
-        </div>
-      </div>
 
       <div className="bloco-post">
         <div className="post1">
