@@ -16,5 +16,6 @@ A Beautiful Home Store é uma landing page de um e-commerce, foi desenvolvida co
 
 - React JS
 - React-Bootstrap
+- SweetAlert
 
 #### ✨ Desenvolvido por Vanessa Vargas ✨
