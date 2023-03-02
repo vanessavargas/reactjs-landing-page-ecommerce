@@ -14,6 +14,7 @@ import Produto7 from "./assets/img/sala-jantar.svg";
 import Produto8 from "./assets/img/sofa.svg";
 import Footer from "./components/Footer";
 import Menu from "./components/Menu";
+import Newsletter from "./components/Newsletter";
 import Slider from "./components/Slider";
 
 export default function Principal() {
@@ -21,8 +22,6 @@ export default function Principal() {
     <>
     <Menu />
     <Slider />
-
-    <main>
 
       <div className="bloco-post">
         <div className="post1">
@@ -228,23 +227,8 @@ export default function Principal() {
           </div>
         </div>
       </div>
-      <div className="news">
-        <div id="content">
-          <h3>Cadastre-se e fique por dentro das novidades e promoções</h3>
-          <form id="form">
-            <input
-              className="input"
-              type="email"
-              placeholder="E-mail"
-              id="email"
-              required
-            />
-            <input className="button-home" type="submit" value="ENVIAR" />
-          </form>
-        </div>
-      </div>
-    </main>
 
+    <Newsletter />              
     <Footer />              
     
     </>
