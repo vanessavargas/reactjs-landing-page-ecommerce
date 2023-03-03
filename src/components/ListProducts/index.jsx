@@ -2,13 +2,11 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 
 import Row from 'react-bootstrap/Row';
-import { itens } from './data';
+import { itens } from '../../utils/data';
 
 import Product  from './Product';
 
-const ListProducts = () => {
-
-  return (
+const ListProducts = () =>  (
       <Container id="promocoes">
         <Row>
            {itens.map(product => (
@@ -17,6 +15,5 @@ const ListProducts = () => {
         </Row>
       </Container>
     ) 
-};
 
 export default ListProducts;
