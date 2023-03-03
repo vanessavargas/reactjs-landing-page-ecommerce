@@ -19,7 +19,7 @@ export const itens = [
     },
     {
         id: 2,
-        title: "Escritório Completo",
+        title: "Escritório Imbuia",
         image: Produto2,
         priceIni: "2.990,00",
         priceFin: "2.609,90",
@@ -51,26 +51,26 @@ export const itens = [
     },
     {
         id: 6,
-        title: "Quarto Multimóveis",
+        title: "Sofá Linoforte",
+        image: Produto8,
+        priceIni: "2.890,00",
+        priceFin: "2.419,90",
+        description: "Sofá com 4 lugares retrátil e reclinável com Baú Linoforte Artemis é ideal para você. A estrutura de matéria-prima em madeira de reflorestamento, percintas elásticas e revestimento em tecido Suede."
+    },
+    {
+        id: 7,
+        title: "Quarto Bebê",
         image: Produto6,
         priceIni: "2.850,00",
         priceFin: "2.179,90",
         description: "O quarto infantil Pimpolho da Multimóveis é produzido em MDF/MDP com pintura UV Premium de alta resistência e Laca PU(que garante maior durabilidade e facilidade na limpeza). Beleza e praticidade."
     },
     {
-        id: 7,
+        id: 8,
         title: "Sala de Jantar",
         image: Produto7,
         priceIni: "7.290,00",
         priceFin: "6.949,90",
         description: "A Sala De Jantar Arezzo Mesa 180 Cm com 06 Cadeiras é perfeita para você que busca um móvel diferenciado para sua casa. Produtos de excelente qualidade, um acabamento impecável e sofisticação."
-    },
-    {
-        id: 8,
-        title: "Sofá Linoforte",
-        image: Produto8,
-        priceIni: "2.890,00",
-        priceFin: "2.419,90",
-        description: "Sofá com 4 lugares retrátil e reclinável com Baú Linoforte Artemis é ideal para você. A estrutura de matéria-prima em madeira de reflorestamento, percintas elásticas e revestimento em tecido Suede."
     },
   ];

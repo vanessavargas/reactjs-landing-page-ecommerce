@@ -5,7 +5,7 @@ const Product = ({product}) => (
 
   <Col key={product.id} className="m-2 g-4">
     <Card className="mt-3 d-flex align-center justify-content-center text-center">
-      <Card.Img variant="top" src={product.image} alt={product.title} />
+      <Card.Img className="m-2" variant="top" src={product.image} alt={product.title} />
       <Card.Body>
         <Card.Title>{product.title}</Card.Title>
         <Card.Text className="price">
