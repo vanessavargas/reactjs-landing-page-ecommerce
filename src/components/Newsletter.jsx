@@ -24,11 +24,8 @@ export default class Newsletter extends React.Component {
                     <div id="content">
                         <h3>Cadastre-se e fique por dentro das novidades e promoções</h3>
                         <form onSubmit={this.handleSubmit}  id="form">
-                            <label>
-                                Name:
-                                <input className="input" type="email" value={this.state.value} onChange={this.handleChange} required/>
-                            </label>
-                            <input className="button-home"  type="submit" value="ENVIAR" />
+                          <input className="input" type="email" value={this.state.value} onChange={this.handleChange} required/>
+                          <input className="button-home"  type="submit" value="ENVIAR" />
                         </form>
                     </div>
                 </div>

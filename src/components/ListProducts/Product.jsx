@@ -13,14 +13,16 @@ const Product = ({product}) => (
             <h2>R$ <span>{product.priceFin}</span></h2>
         </Card.Text>
         
-        <div className="popup" onclick="openPopup()">
-            <p className="legend">Ver mais</p>
-            <div className="content-popup" id="details">
+        {/** Colocar descrição em pop-up 
+        <details >
+          <summary className="legend">Ver mais</summary>
+          <div className="content-popup" id="details">
               <p className="description">
                 {product.description}
               </p>
-            </div>
-        </div>
+          </div>
+        </details>
+        */}
 
       </Card.Body>
     </Card>
