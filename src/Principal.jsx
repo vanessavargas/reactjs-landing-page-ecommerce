@@ -10,13 +10,14 @@ import Slider from "./components/Slider";
 export default function Principal() {
   return (
     <>
-    <Menu />
-    <Slider />
+      <Menu />
+      <Slider />
 
       <div className="bloco-post">
         <div className="post1">
           <img src={BlackFriday} alt="banner Black Friday" />
         </div>
+        
         <div className="post2">
           <p>
             Redecore e renove sua casa com as ofertas que preparamos para você!
@@ -24,11 +25,9 @@ export default function Principal() {
         </div>
       </div>
 
-    <ListProducts />
-
-    <Newsletter />              
-    <Footer />              
-    
+      <ListProducts />
+      <Newsletter />              
+      <Footer />              
     </>
   )
 }

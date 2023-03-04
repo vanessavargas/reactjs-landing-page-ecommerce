@@ -2,7 +2,6 @@ import React from 'react';
 import { Col, Card } from 'react-bootstrap';
 
 const Product = ({product}) => (
-
   <Col key={product.id} className="m-2 g-4">
     <Card className="mt-3 d-flex align-center justify-content-center text-center">
       <Card.Img className="m-2" variant="top" src={product.image} alt={product.title} />

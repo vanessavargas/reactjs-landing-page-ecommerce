@@ -7,13 +7,13 @@ import { itens } from '../../utils/data';
 import Product  from './Product';
 
 const ListProducts = () =>  (
-      <Container id="promocoes">
-        <Row>
-           {itens.map(product => (
-            <Product key={product.id} product={product} />
-          ))}  
-        </Row>
-      </Container>
-    ) 
+  <Container id="promocoes">
+    <Row>
+      {itens.map(product => (
+        <Product key={product.id} product={product} />
+      ))}  
+    </Row>
+  </Container>
+) 
 
 export default ListProducts;
