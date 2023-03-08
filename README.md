@@ -19,5 +19,6 @@ A Beautiful Home Store é uma landing page de um e-commerce, foi desenvolvida co
 - [SweetAlert](https://sweetalert.js.org/): customização do alert - Newsletter
 - [TinyPNG](https://tinypng.com/): para compressão das imagens
 - [Unsplash](https://unsplash.com/): imagens
+- [Flaticon](https://www.flaticon.com/): ícones
 
 #### ✨ Desenvolvido por Vanessa Vargas ✨

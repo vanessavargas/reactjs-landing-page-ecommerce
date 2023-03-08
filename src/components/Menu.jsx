@@ -6,7 +6,7 @@ import Logo from "../assets/img/logotipo.svg";
 
 export default function Menu() {
   return (
-    <Navbar bg="light" variant="light" expand="md" widht="100%">
+    <Navbar className='bg-light' variant="light" expand="md" widht="100%">
       <Container>
         <Navbar.Brand href="#home"><img id="logo" src={Logo} alt="Logotipo"  widht={80} height={80}
         /></Navbar.Brand>
@@ -16,6 +16,7 @@ export default function Menu() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#promocoes">Promoções</Nav.Link>
             <Nav.Link href="#contato">Contato</Nav.Link>
+            <Nav.Link href=" " className='border rounded text-success color-success'>Solicite orçamento</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

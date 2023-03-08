@@ -11,6 +11,11 @@ import Slide5 from "../assets/img/slider/kitchen5.png";
 import Slide1 from "../assets/img/slider/kitchen6.png";
 import Slide7 from "../assets/img/slider/kitchen7.png";
 
+import Type1 from "../assets/img/types/kitchen.svg";
+import Type2 from "../assets/img/types/table.svg";
+import Type3 from "../assets/img/types/couch.svg";
+import Type4 from "../assets/img/types/desk.svg";
+
 export const itens = [
     {
       id: 1,
@@ -80,5 +85,28 @@ export const itens = [
         image: Slide7,
         title: "FRETE GRÁTIS",
         content: "Nas compras acima de R$2590,00"
+    },
+]
+
+export const types = [
+    {
+        id: 1,
+        title: "COZINHA",
+        image: Type1,
+    },
+    {
+        id: 2,
+        title: "SALA DE JANTAR",
+        image: Type2,
+    },
+    {
+        id: 3,
+        title: "SALA DE ESTAR",
+        image: Type3,
+    },
+    {
+        id: 4,
+        title: "ESCRITÓRIO",
+        image: Type4,
     },
 ]
