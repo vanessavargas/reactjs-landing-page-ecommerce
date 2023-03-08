@@ -5,7 +5,7 @@ import { slides } from "../utils/data";
 
 
 const Slider = () => (
-  <Carousel className='slider text-center my-4'>
+  <Carousel className='slider text-center my-5'>
     {slides.map(slide => (
       <Carousel.Item key={slide.id}>
         <img

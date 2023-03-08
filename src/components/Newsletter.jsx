@@ -21,12 +21,12 @@ export default class Newsletter extends React.Component {
   
   render() {
     return (
-      <div className="news">
-        <div id="content">
-          <h3>Cadastre-se e fique por dentro das novidades e promoções</h3>
-          <form onSubmit={this.handleSubmit}  id="form">
-            <input className="input" type="email" value={this.state.value} onChange={this.handleChange} required/>
-            <input className="button-home"  type="submit" value="ENVIAR" />
+      <div className="d-flex justify-content-center m-5 rounded shadow-sm p-3 bg-light rounded">
+        <div id="content" className="text-center">
+          <h4>Cadastre-se e fique por dentro das novidades e promoções</h4>
+          <form onSubmit={this.handleSubmit}  id="form" className="d-flex justify-content-center align-items-center p-4">
+            <input className="input border border-secondary rounded p-2 mx-2"type="email" value={this.state.value} onChange={this.handleChange} required/>
+            <input className="btn btn-success mx-2" type="submit" value="ENVIAR" />
           </form>
         </div>
       </div>
