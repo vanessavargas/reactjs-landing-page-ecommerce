@@ -10,13 +10,13 @@ export default class Newsletter extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
           
-  handleChange(event) {
-    this.setState({value: event.target.value});
+  handleChange(e) {
+    this.setState({value: e.target.value});
   }
           
-  handleSubmit(event) {
+  handleSubmit(e) {
     swal('E-mail ' + this.state.value + ' cadastrado!');
-    event.preventDefault();
+    e.preventDefault();
   }
   
   render() {

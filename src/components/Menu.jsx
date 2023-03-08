@@ -1,8 +1,13 @@
+import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 
 import Logo from "../assets/img/logotipo.svg";
+import ModalContact from './ModalContact';
 
 export default function Menu() {
+  const [modalShow, setModalShow] = React.useState(false);
+
+
   return (
     <Navbar className='bg-light' variant="light" expand="md" widht="100%">
       <Container>
@@ -14,7 +19,11 @@ export default function Menu() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#promocoes">Promoções</Nav.Link>
             <Nav.Link href="#contato">Contato</Nav.Link>
-            <Button variant='success'className='btnOrcamento'>Solicite orçamento</Button>
+            <Button variant='success'className='btnOrcamento' onClick={() => setModalShow(true)}>Solicite orçamento</Button>
+
+            <ModalContact show={modalShow}
+              onHide={() => setModalShow(false)}
+            />
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -22,11 +22,19 @@
   width: 90%;
 }
 
+/* modal */
 .btnOrcamento {
   margin-left: 3vw;
 }
 
-/*newsletter*/
+.modal fieldset {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  margin: 12px;
+}
+
+/* newsletter */
 .input {
   width: 40vw;
   min-width: 200px;
