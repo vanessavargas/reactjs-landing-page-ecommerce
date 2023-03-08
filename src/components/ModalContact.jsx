@@ -1,13 +1,15 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
-import swal from 'sweetalert';
+//import swal from 'sweetalert';
 
+/*
 function ConfMensage () {
     swal( "Mensagem enviada com sucesso!", {
       icon: "success",
       closeOnEsc: true,
     });
 }
+*/
 
 
 export default function ModalContact(props) {
