@@ -1,4 +1,4 @@
-# Beautiful Home Store
+# Beautiful Home Store - E-commerce Landing Page
 
 <div align="center">
 
@@ -6,19 +6,20 @@
 
 </div>
 
-O deploy do projeto foi realizado no Vercel, e pode ser visualizado neste [link](https://beautifulhomestore.vercel.app/).
+A React JS and React-Bootstrap e-commerce landing page developed in 2021. The project deployment was done on Vercel and can be viewed at this [link](https://beautifulhomestore.vercel.app/).
 
-## Sobre
+## About
 
-A Beautiful Home Store é uma landing page de um e-commerce, foi desenvolvida com temática Black Friday, incluindo cadastro de email na para recebimento de novidades. O projeto foi realizado como desafio, durante o programa **Hiring Coders 2021**, promovido pela VTEX em parceria com a Gama Academy, realizado entre julho e agosto de 2021. 
+Beautiful Home Store is an e-commerce landing page developed with a Black Friday theme, including an email signup for receiving updates. The project was completed as a challenge during the Hiring Coders 2021 program, organized by VTEX in partnership with Gama Academy, conducted between July and August 2021.
 
-## Tecnologias e ferramentas utilizadas
+## Technologies and Tools Used
 
 - React JS
 - React-Bootstrap
-- [SweetAlert](https://sweetalert.js.org/): customização do alert - Newsletter
-- [TinyPNG](https://tinypng.com/): para compressão das imagens
-- [Unsplash](https://unsplash.com/): imagens
-- [Flaticon](https://www.flaticon.com/): ícones
+- [SweetAlert](https://sweetalert.js.org/):  Customization of the alert - Newsletter
+- [TinyPNG](https://tinypng.com/): Image compression
+- [Unsplash](https://unsplash.com/): Images
+- [Flaticon](https://www.flaticon.com/): Icons
 
-#### ✨ Desenvolvido por Vanessa Vargas ✨
+<hr>
+Developed with ❤️ by VanessaVargas
