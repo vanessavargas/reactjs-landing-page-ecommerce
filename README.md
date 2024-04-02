@@ -21,5 +21,24 @@ Beautiful Home Store is an e-commerce landing page developed with a Black Friday
 - [Unsplash](https://unsplash.com/): Images
 - [Flaticon](https://www.flaticon.com/): Icons
 
+## Getting Started
+- Clone the Repository:
+  ```
+  git clone https://github.com/vanessavargas/reactjs-landing-page-ecommerce.git
+  cd reactjs-my-bookshelf
+  ```
+  
+- Install Dependencies:
+  ```
+  npm install
+  ```
+
+- Run the Application:
+  ```
+  npm start
+  ```
+  
 <hr>
+<div align="center">
 Developed with ❤️ by VanessaVargas
+<div/>
